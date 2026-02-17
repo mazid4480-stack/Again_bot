@@ -2,13 +2,13 @@
 <html lang="bn">
 <head>
     <meta charset="UTF-8">
-    <title>Success</title>
+    <title>Agent Success</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-            height: 100vh;
             margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #141e30, #243b55);
+            height: 100vh;
         }
 
         .popup {
@@ -16,42 +16,91 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
+            background: #ffffff;
+            padding: 35px 25px;
+            border-radius: 15px;
             width: 90%;
-            max-width: 400px;
+            max-width: 380px;
             text-align: center;
-            box-shadow: 0 0 20px rgba(0,0,0,0.3);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+        }
+
+        .popup h2 {
+            color: #28a745;
+            margin-bottom: 10px;
+        }
+
+        .popup p {
+            font-size: 15px;
+            color: #333;
+            margin: 10px 0;
         }
 
         .btn {
-            display: inline-block;
-            padding: 12px 20px;
-            background: #0088cc;
-            color: white;
+            display: block;
+            padding: 12px;
+            margin: 10px 0;
             text-decoration: none;
-            border-radius: 6px;
+            color: white;
+            border-radius: 8px;
             font-weight: bold;
-            margin-top: 10px;
+            font-size: 15px;
+        }
+
+        .btn-bot {
+            background: linear-gradient(45deg, #0088cc, #00aced);
+        }
+
+        .btn-admin {
+            background: linear-gradient(45deg, #ff512f, #dd2476);
+        }
+
+        .btn-channel {
+            background: linear-gradient(45deg, #11998e, #38ef7d);
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+        }
+
+        .vip-badge {
+            background: gold;
+            color: black;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 10px;
         }
     </style>
 </head>
 <body>
 
 <div class="popup">
-    <h2>✔ সফল!</h2>
+    <div class="vip-badge">VIP ACCESS</div>
+    <h2>✔ সফল রেজিস্ট্রেশন</h2>
+
     <p>
         প্রিয় ইউজার,<br>
         সফলভাবে এজেন্ট ফর্ম পূরণ করেছেন।
     </p>
+
     <p>
-        যেই জিমেইল দিয়ে এই ফর্ম পূরণ করেছেন,<br>
-        সেই মেইল ব্যবহার করে টেলিগ্রাম বটে এজেন্ট একাউন্ট তৈরি করুন।
+        এখন নিচের বাটনে ক্লিক করে<br>
+        আপনার এজেন্ট একাউন্ট তৈরি করুন।
     </p>
 
-    <a class="btn" href="https://t.me/social_workars1_bot">
+    <a class="btn btn-bot" href="https://t.me/social_workars1_bot">
         এজেন্ট একাউন্ট তৈরি করুন
+    </a>
+
+    <a class="btn btn-admin" href="https://t.me/md_rezual_karim">
+        এডমিনের সাথে যোগাযোগ
+    </a>
+
+    <a class="btn btn-channel" href="https://t.me/social_workars4">
+        টেলিগ্রাম চ্যানেলে যোগ দিন
     </a>
 </div>
 
